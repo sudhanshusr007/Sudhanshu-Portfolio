@@ -128,7 +128,7 @@ const experiences: TExperience[] = [
     title: "Full Stack Developer Intern",
     companyName: "Xebia",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "purple",
     date: "June 2024 - July 2024",
     points: [
       "Spearheaded a team of 4 to develop Mortis a hospital management system, completing the project within the internship timeline.",
@@ -141,7 +141,7 @@ const experiences: TExperience[] = [
     title: "Secretary",
     companyName: "Full Stack Club BU",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "black",
     date: "September 2022 - August 2023",
     points: [
       "Led workshops on Figma and Wix, training over 100 participants.",
@@ -153,7 +153,7 @@ const experiences: TExperience[] = [
     title: "Social Media Head",
     companyName: "GeeksForGeeks BU",
     icon: shopify,
-    iconBg: "#383E56",
+    iconBg: "white",
     date: "September 2022 - August 2023",
     points: [
       "Spearheaded and executed technical events like CodeDate and Spin the Code, engaging over 500 participants.",
@@ -165,7 +165,7 @@ const experiences: TExperience[] = [
     title: "Outreach Assistant",
     companyName: "Mortystellar",
     icon: meta,
-    iconBg: "#E6DEDD",
+    iconBg: "white",
     date: "April 2022 - February 2023",
     points: [
       "Helped the firm to reach more artists in making of NFTs",
@@ -187,15 +187,15 @@ const projects: TProject[] = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color:"white"
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
+        color:"white"
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "tailwindcss",
+        color:"white"
       },
     ],
     image: carrent,
@@ -208,15 +208,15 @@ const projects: TProject[] = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color:"white"
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "tailwindcss",
+        color:"white"
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "mongodb",
+        color:"white"
       },
     ],
     image: jobit,
@@ -228,16 +228,16 @@ const projects: TProject[] = [
       "An online lost and found portal to reduce the time taken in traditional ways.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "html",
+        color:"white"
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "django",
+        color:"white"
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color:"white"
       },
     ],
     image: tripguide,
