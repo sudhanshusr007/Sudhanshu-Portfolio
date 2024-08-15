@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../../constants/styles";
 import { config } from "../../constants/config";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -20,7 +21,24 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
-            {config.hero.p[1]}
+            {config.hero.p[1]} <br className="hidden sm:block" />
+            <br className="hidden sm:block" /><br className="hidden sm:block" /><br className="hidden sm:block" /><br className="hidden sm:block" /><br className="hidden sm:block" />
+            <Link to="https://github.com/sudhanshusr007" key="github-link">
+            <span className="bg-#d19058-500 text-[#b85400] px-4 py-2 rounded-full inline-block hover:bg-[#b85400]-600 transition-colors">{config.hero.p[2]}</span></Link>
+            <Link to="https://www.linkedin.com/in/sudhanshusr007/" key="linkedin-link">
+            <span className="bg-#d19058-500 text-[#b85400] px-4 py-2 rounded-full inline-block hover:bg-[#b85400]-600 transition-colors">{config.hero.p[3]}
+            </span>
+            </Link>
+            
+        <a
+          href="/assets/Sudhanshu Ranjan.pdf"
+          download="Sudhanshu Ranjan.pdf"
+          className="bg-#d19058-500 text-[#b85400] px-4 py-2 rounded-full inline-block hover:bg-[#b85400]-600 transition-colors"
+          
+        >
+          Resume
+        </a>
+      
           </p>
         </div>
       </div>
