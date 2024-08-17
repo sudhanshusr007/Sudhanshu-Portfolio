@@ -31,8 +31,8 @@ const Hero = () => {
             </Link>
             
         <a
-          href="/assets/Sudhanshu Ranjan.pdf"
-          download="Sudhanshu Ranjan.pdf"
+          href="/assets/SudhanshuRanjan.pdf"
+          download="SudhanshuRanjan.pdf"
           className="bg-#d19058-500 text-[#b85400] px-4 py-2 rounded-full inline-block hover:bg-[#b85400]-600 transition-colors"
           
         >
